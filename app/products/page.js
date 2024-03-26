@@ -23,7 +23,7 @@ const ProductsPage = () => {
                 {product.title}
               </Link>
               <span class="text-[#919090]">
-                <a href="./category.html">({product.category})</a>
+                <Link href="/categorys">({product.category})</Link>
               </span>
             </h2>
             <p class="text-[#919090] text-sm">{product.description}</p>

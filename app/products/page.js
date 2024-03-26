@@ -1,5 +1,4 @@
 import allProducts from "@/app/data/allPorducts";
-import SingleProducts from "@/components/SingleProducts";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -18,10 +17,10 @@ const ProductsPage = () => {
             ></Image>
             <h2 class="text-sm lg:text-base mt-2">
               <Link
-                class="text-base font-bold"
                 href={`/products/${product.id}`}
+                class="text-base font-bold"
               >
-                <SingleProducts title={product.title}></SingleProducts>
+                {product.title}
               </Link>
               <span class="text-[#919090]">
                 <a href="./category.html">({product.category})</a>

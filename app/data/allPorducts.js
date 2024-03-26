@@ -15,7 +15,6 @@ const allProducts = [
       "https://cdn.dummyjson.com/product-images/1/2.jpg",
       "https://cdn.dummyjson.com/product-images/1/3.jpg",
       "https://cdn.dummyjson.com/product-images/1/4.jpg",
-      "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
     ],
   },
   {
@@ -67,7 +66,6 @@ const allProducts = [
       "https://cdn.dummyjson.com/product-images/4/2.jpg",
       "https://cdn.dummyjson.com/product-images/4/3.jpg",
       "https://cdn.dummyjson.com/product-images/4/4.jpg",
-      "https://cdn.dummyjson.com/product-images/4/thumbnail.jpg",
     ],
   },
   {
@@ -143,7 +141,6 @@ const allProducts = [
       "https://cdn.dummyjson.com/product-images/8/2.jpg",
       "https://cdn.dummyjson.com/product-images/8/3.jpg",
       "https://cdn.dummyjson.com/product-images/8/4.jpg",
-      "https://cdn.dummyjson.com/product-images/8/thumbnail.jpg",
     ],
   },
   {
@@ -162,7 +159,6 @@ const allProducts = [
       "https://cdn.dummyjson.com/product-images/9/1.jpg",
       "https://cdn.dummyjson.com/product-images/9/2.png",
       "https://cdn.dummyjson.com/product-images/9/3.png",
-      "https://cdn.dummyjson.com/product-images/9/4.jpg",
       "https://cdn.dummyjson.com/product-images/9/thumbnail.jpg",
     ],
   },
@@ -218,7 +214,6 @@ const allProducts = [
     images: [
       "https://cdn.dummyjson.com/product-images/12/1.jpg",
       "https://cdn.dummyjson.com/product-images/12/2.jpg",
-      "https://cdn.dummyjson.com/product-images/12/3.png",
       "https://cdn.dummyjson.com/product-images/12/4.jpg",
       "https://cdn.dummyjson.com/product-images/12/thumbnail.jpg",
     ],

@@ -71,19 +71,42 @@ const Details = ({ params }) => {
               <h1 class="italic text-xl lg:text-3xl font-serif font-semibold">
                 {title}
               </h1>
-
               <span class="text-[#919090] my-3">
                 <Link href="/categorys">({category})</Link>
-              </span>
-              {/* <div class="mt-3 flex items-center justify-start gap-1">
-                <Image src="./assets/svg/star.svg" width="20px" alt="" />
-                <Image src="./assets/svg/star.svg" width="20px" alt="" />
-                <Image src="./assets/svg/star.svg" width="20px" alt="" />
-                <Image src="./assets/svg/star.svg" width="20px" alt="" />
-                <Image src="./assets/svg/star.svg" width="20px" alt="" />
-              </div> */}
+              </span>{" "}
+              <div class="mt-3 flex items-center justify-start gap-1">
+                <Image
+                  src="/assets/svg/star.svg"
+                  width={20}
+                  height={20}
+                  alt=""
+                />
+                <Image
+                  src="/assets/svg/star.svg"
+                  width={20}
+                  height={20}
+                  alt=""
+                />
+                <Image
+                  src="/assets/svg/star.svg"
+                  width={20}
+                  height={20}
+                  alt=""
+                />
+                <Image
+                  src="/assets/svg/star.svg"
+                  width={20}
+                  height={20}
+                  alt=""
+                />
+                <Image
+                  src="/assets/svg/star.svg"
+                  width={20}
+                  height={20}
+                  alt=""
+                />
+              </div>
               <hr class="my-5 bg-black" />
-
               <div>
                 <p class="my-3">
                   <span class="text-rose-600 opacity-60 line-through">

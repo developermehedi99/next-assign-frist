@@ -42,29 +42,6 @@ const Details = ({ params }) => {
                     alt=""
                   />
                 ))}
-
-                {/* <Image
-                  width={100}
-                  height={100}
-                  src="./assets/products/iphone.jpg"
-                  class="w-[100px] h-[100px] mx-auto border object-cover"
-                  alt=""
-                />
-                <Image
-                  src="./assets/products/iphone-2.jpg"
-                  class="w-[100px] h-[100px] mx-auto border object-cover"
-                  alt=""
-                />
-                <Image
-                  src="./assets/products/iphone-3.jpg"
-                  class="w-[100px] h-[100px] mx-auto border object-cover"
-                  alt=""
-                />
-                <Image
-                  src="./assets/products/iphone-4.jpg"
-                  class="w-[100px] h-[100px] mx-auto border object-cover"
-                  alt=""
-                /> */}
               </div>
             </div>
             <div class="w-full lg:w-5/12">

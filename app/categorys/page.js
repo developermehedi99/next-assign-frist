@@ -2,6 +2,7 @@ import Footer from "@/components/Footer";
 import GetContact from "@/components/GetContact";
 import HeroSec from "@/components/HeroSec";
 import Image from "next/image";
+import Link from "next/link";
 import allProducts from "../data/allPorducts";
 
 const Categorys = () => {
@@ -46,11 +47,14 @@ const Categorys = () => {
                 ></Image>
               </div>
               <h2 class="text-sm lg:text-base mt-2">
-                <a class="text-base font-bold" href="./productPage.html">
+                <Link
+                  class="text-base font-bold"
+                  href={`/products/${product.id}`}
+                >
                   {product.title}
-                </a>
+                </Link>
                 <span class="text-[#919090]">
-                  <a href="./category.html">({product.category})</a>
+                  <a href="">({product.category})</a>
                 </span>
               </h2>
               <p class="text-[#919090] text-sm ">{product.description}</p>

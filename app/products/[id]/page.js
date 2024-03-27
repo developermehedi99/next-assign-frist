@@ -1,5 +1,6 @@
 import allProducts from "@/app/data/allPorducts";
 import Image from "next/image";
+import Link from "next/link";
 
 const Details = ({ params }) => {
   console.log(params);
@@ -70,7 +71,10 @@ const Details = ({ params }) => {
               <h1 class="italic text-xl lg:text-3xl font-serif font-semibold">
                 {title}
               </h1>
-              <span class="text-[#919090] my-3">{category}</span>
+
+              <span class="text-[#919090] my-3">
+                <Link href="/categorys">({category})</Link>
+              </span>
               {/* <div class="mt-3 flex items-center justify-start gap-1">
                 <Image src="./assets/svg/star.svg" width="20px" alt="" />
                 <Image src="./assets/svg/star.svg" width="20px" alt="" />

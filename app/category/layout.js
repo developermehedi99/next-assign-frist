@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Link from "next/link";
 
 export default function RootLayout({ children }) {
@@ -72,6 +73,7 @@ export default function RootLayout({ children }) {
           </form>
         </div>
       </section>
+      <Footer></Footer>
     </main>
   );
 }

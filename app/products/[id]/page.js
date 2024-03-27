@@ -49,7 +49,7 @@ const Details = ({ params }) => {
                 {title}
               </h1>
               <span class="text-[#919090] my-3">
-                <Link href="/categorys">({category})</Link>
+                <Link href={`/categorys/${category}`}>({category})</Link>
               </span>{" "}
               <div class="mt-3 flex items-center justify-start gap-1">
                 <Image
